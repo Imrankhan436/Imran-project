@@ -1,0 +1,100 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Header starts here */
+
+header{
+
+}
+
+.nav-heading{
+
+    text-align: left;
+}
+.nav-menu{
+
+ flex-direction: row;
+ justify-content: flex-end;
+}
+.nav-menu a{
+    background-color: transparent;
+}
+.nav-menu a::after{
+   content: "";
+   width:0px;
+   height: 5px;
+   background-color: chartreuse;
+   color: white;
+   display: block;
+   transition: all 0.3s ease;
+}
+.nav-menu a:hover::after{
+width: 100%;
+}
+
+/* header ends here */
+
+/* aboutme starts here */
+.home{
+   height: 500px;
+}
+.home-text h2{
+font-size: 2.9rem;
+color: deeppink;
+
+}
+.home-text p{
+    color:green;
+    font-size: 1.2rem;
+}
+
+
+/* aboutme ends here */
+
+/* My service starts here */
+.container > div{
+    justify-content: center;
+    align-items: center;
+}
+   
+.container{
+    display: flex;
+}
+/* My service starts here */
+
+.contact-me-contact{
+    margin-left: 20px;
+}
+
+/* Footer starts here */
+
+.footer{
+    padding:10px;
+}
+.footer-menu{
+    margin-top: 9px;
+}
+.footer-menu a{
+   
+    display: inline;
+    padding:10px;
+}
+.footer-text{
+    font-size: 1rem;
+    margin-bottom: 14px;
+}
+
+
+
+/* Footer ends here */

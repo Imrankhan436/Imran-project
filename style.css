@@ -1,0 +1,230 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+/* Header starts here */
+header{
+ 
+    background: #000;
+    color: white;
+    width:100%;
+    text-align: center;
+
+}
+h1{
+font-size: 2.3rem;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px; 
+
+   
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+[class*="col-"]{
+    width:100%;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+}
+.nav-menu a{
+    color: white;
+    background-color: crimson;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+header::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+ 
+
+/* Header Ends here */
+
+
+
+
+
+/* profile section starts here */
+.Home{
+    position: relative;
+    width:100%;
+    height: 560px;
+    background-image: url('708950.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-text{
+    position: absolute;
+    left: 120px;
+    top:200px;
+     
+}
+.home-text h2{
+    color:hotpink;
+    font-size: 2.6rem;
+}
+.home-text p{
+    font-size: 1.4rem;
+    color:tomato;
+}
+.home-icon{
+    margin-top: 20px;
+}
+.home-icon a{
+background-color: crimson;
+padding:10px 30px;
+border-radius: 20px;
+color:white;
+text-decoration: none;
+font-weight: bold;
+transition: all 0.3s ease;
+
+
+}
+.home-icon a:hover{
+    color: black;
+    background-color: cyan;
+    box-shadow: 0px 16px 32px 0px black;
+
+}
+.home::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* profile section ends here */
+
+ 
+
+
+
+
+
+
+/* aboutme starts here */
+.about-me{
+    padding:20px;
+    background-color: darkgray;
+    text-align: center;
+   
+}
+.aboutme-desc{
+    
+    padding:20px;
+}
+
+.about-me h2{
+ 
+    text-align: center;
+    font-size: 2rem;
+    color: chartreuse;
+}
+
+.container{
+   padding: 5px;
+
+    text-align: center;
+}
+.container > div{
+    height: 150px;
+    margin: 4px;
+    background-color: greenyellow;
+}
+.about-me::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* aboutme ends here */
+
+
+
+
+
+/* service section starts here */
+
+.contact-me{
+    background-color: teal;
+    padding:2% 4%;
+   
+}
+.section-heading{
+background-color:crimson;
+text-align: center;
+
+}
+
+.section-heading h2{
+    font-size: 2rem;
+}
+.achievement{
+    padding:1% 3%;
+    text-align: center;
+}
+.contact-me-desc{
+    padding:20px 0px;
+}
+.contact-me-desc h3{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.contact-me-desc p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.contact-me-contact input, textarea{
+width:100%;
+border-radius: 10px;
+text-align: center;
+padding:5px;
+margin: 2px;
+resize: none;
+font-size: 1rem;
+
+}
+.contact-me::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* service section ends here */
+
+
+/* footer starts here */
+.footer{
+    background-color: black;
+    color: white;
+    padding:15px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+.footer-menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 20px 0px;
+    font-size: 1rem;
+}
+.footer-menu a:hover{
+    color: crimson;
+}
+/* footer ends here */
